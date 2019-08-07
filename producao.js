@@ -50,8 +50,8 @@ function changeprod() {
         {level: 7, id: 'ENP701', label: 'Engenharia de Processos Mecânicos', title: 'ENP701 ENGENHARIA DE PROCESSOS MECANICOS',y:-700},
     
         {level: 8, id: 'ENP119', label: 'Logística', title: 'ENP119 LOGISTICA',y:-1200},
-        {level: 8, id: 'ENP534', label: 'Sistema de Desenvolvimento de Produto', title: 'ENP534 SISTEMA DE DESENVOLVIMENTO DE PRODUTO',y:-1100},
-        {level: 8, id: 'ENP159', label: 'Gestão de Projetos', title: 'ENP159 GESTAO DE PROJETOS',y:-1000},
+        {level: 8, id: 'ENP159', label: 'Sistema de Desenvolvimento de Produto', title: 'ENP534 SISTEMA DE DESENVOLVIMENTO DE PRODUTO',y:-1100},
+        {level: 8, id: 'ENP534', label: 'Gestão de Projetos', title: 'ENP159 GESTAO DE PROJETOS',y:-1000},
         {level: 8, id: 'ENP123', label: 'PCP II', title: 'ENP123 PLANEJAMENTO E CONTROLE DE PRODUCAO II',y:-900},
         {level: 8, id: 'HORA5', label: '2100 Horas', title: '2100 HORAS',y:-800},
     
