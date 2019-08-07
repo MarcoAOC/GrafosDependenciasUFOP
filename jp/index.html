@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Visualização de Dados para Bengala Enativa Afetiva</title>
+    <link rel="shortcut icon" href="img/v-icon.png">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/site.css">
+  
+  </head>
+  <body class="widthBar">
+
+  <div class="header">
+    <h1>Visualização de Dados</h1>
+    <h3>Bengala Enativa Afetiva</h3>
+  </div>
+
+  <div class="topnav">
+    <ul>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="index.html">Home</a></li>
+    </ul>    
+  </div>
+  
+  <div class="row">
+    <div class="rightcolumn">
+      <div class="card">
+        <div class="row">
+            <div class="infoBorder center">
+                <h2>Bem Vindo</h2>
+                <article><br>Esta página tem como função exibir visualizações dos dados obtidos da Bengala Enativa Afetiva.</article> 
+                <article>Você pode acessa-las no menu à esquerda. </article>
+                <article>Se deseja conhecer mais sobre esse projeto acesse o link abaixo.<br><br><br><br></article>
+                <div class="marginTopbottom marginTop center">
+                    <a href="sobre.html" class="waves-effect waves-light btn-small darkBackground">Bengala Enativa Afetiva</a>
+                  </div> 
+            </div>    
+          </div>
+      </div>
+    </div>
+    <div class="leftcolumn">
+      <div class="card">
+        <!-- <h2>Visualizações</h2> -->
+        <ul>
+            <li><a class="toolTipOn" href="zoomGraph.html" data-position="right" data-tooltip="Gráfico de linhas estático para arquivo csv único"><i class="fas fa-chart-line fa-3x" aria-hidden="true"></i></a></li>
+            <li><a class="toolTipOn" href="dinamicBarGraph.html" data-position="right" data-tooltip="Gráfico de barras dinâmico para arquivo csv único"><i class="fas fa-chart-bar fa-3x" aria-hidden="true"></i></a></li>
+            <li><a class="toolTipOn" href="dinamicLineGraph.html" data-position="right" data-tooltip="Gráfico de linhas para arquivos csv"><i class="fas fa-random fa-3x" aria-hidden="true"></i></a></li>
+            <li><a class="toolTipOn" href="kernelDensityEstimation.html" data-position="right" data-tooltip="Gráfico de área estático para arquivo csv único"><i class="fas fa-chart-area fa-3x" aria-hidden="true"></i></a></li>
+            <li><a class="toolTipOn" href="liquidFill.html" data-position="right" data-tooltip="Visualização de gauge para arquivo csv único"><i class="fas fa-fill fa-3x" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+  </div>
+  
+  <script src="js/jquery.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/jquery.csv.js"></script>
+  <script src="js/d3.v3.min.js"></script>
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

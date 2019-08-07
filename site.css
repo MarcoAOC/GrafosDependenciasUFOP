@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #aaa;
+  background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+  background-size: 20px 20px;
+  background-attachment: fixed;
+}
+
+h1{
+  font-family: "Open Sans Condensed", "Arial", sans-serif; 
+  font-size: 3em;
+  text-shadow: 0.05em 0.05em #bbb;
+  margin: 0.3em;
+  color: #212121;
+}
+
+
+h2{
+  font-family: "Open Sans Condensed", "Arial", sans-serif; 
+  font-size: 1.5em;
+  margin: 0.3em;
+}
+
+h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 1em;
+  margin: 0.2em;
+}
+
+h4{
+  font-family: "Open Sans Condensed", "Arial", sans-serif; 
+  font-size: 2em;
+  background-color: #212121;
+  color: #f2f2f2;;
+  font-weight: bold;
+  padding: 0.2em;
+  margin-bottom: 0.3em;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 1em;
+  text-align: center;
+  background: white;
+  
+}
+
+.header h1 {
+  font-size: 3em;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #212121;
+}
+
+/* Style the topnav links */
+.topnav button {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Right column */
+.rightcolumn {   
+  float: right;
+  width: 80%;
+}
+
+/* Left column */
+.leftcolumn {
+  float: right;
+  width: 20%;
+  background-color: #aaa;
+  background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0,0,0,.1) 14px, rgba(0,0,0,.1) 15px, transparent 15px, transparent);
+  background-size: 20px 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.leftcolumn h2{
+  font-weight: bold;
+  color: #212121;
+  overflow: hidden;
+  background-color: white; 
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-bottom: 0.1em;
+}
+
+
+.leftcolumn a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: #f2f2f2;
+  overflow: hidden;
+  background-color: #212121;
+  display: block;
+  text-align: center;
+  padding: 0.2em 0.2em;
+  text-decoration: none;
+  margin-bottom: 0.1em;
+  border-radius: 0.5em;
+}
+
+.blackButton:focus,
+.blackButton:hover,
+.leftcolumn a:focus,
+.leftcolumn a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+.blackButton{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: #f2f2f2;
+  text-decoration: none;
+  margin-bottom: 0.1em;
+  border-radius: 0.5em;
+  background-color: #212121;
+}
+
+/* Add a card effect for articles */
+.card {
+  font-family: sans-serif;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #212121;
+  margin-top: 20px;
+  color: white;
+}
+
+.buttonOnClick a{
+  background-color: #ddd;
+  color: black;
+  font-weight: bold;
+  border: .1em solid #212121; 
+}
+
+.bemVindo{
+  padding: 0.2em;
+  text-align: justify;
+}
+
+/* Left column */
+.csvLinks{
+  margin: 1em;
+  width: 25%;
+  background-color: #aaa;
+  background-attachment: fixed;
+  padding-right: 20px;
+  text-align: center;
+}
+
+/*create flex containers center*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-shrink{
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-column-reverse{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+} 
+
+/*add 1em left margin*/
+.marginLeft1em{
+  margin-left: 1em;
+}
+
+.marginTopBottom{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.marginTop{
+  margin-top: 0.5em;
+  
+}
+.infoBorder{
+  background-color: antiquewhite; 
+  border: .1em solid #212121; 
+  margin: 1em;
+  padding: 1em;
+}
+
+.visualizationBorder{ 
+  border: .05em solid #212121; 
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+article a{
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+article a:focus,
+article a:hover{
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.darkBackground{
+  background-color: #212121; 
+}
+
+.darkBackground:hover,
+.darkBackground:focus{
+  background-color: #ddd;
+  color: black;
+}
+
+.widthBar{
+  min-width: 635px;
+}
+
+.csvButtons li{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: .05em solid #212121; 
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.csvButtons li:hover,
+.csvButtons li:focus{
+  background-color: antiquewhite;
+}
