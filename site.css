@@ -170,20 +170,7 @@ h4{
   border: .1em solid #212121; 
 }
 
-.bemVindo{
-  padding: 0.2em;
-  text-align: justify;
-}
 
-/* Left column */
-.csvLinks{
-  margin: 1em;
-  width: 25%;
-  background-color: #aaa;
-  background-attachment: fixed;
-  padding-right: 20px;
-  text-align: center;
-}
 
 /*create flex containers center*/
 .flex-container {
@@ -237,11 +224,6 @@ h4{
   padding: 1em;
 }
 
-.visualizationBorder{ 
-  border: .05em solid #212121; 
-  margin: 0.5em;
-  padding: 0.5em;
-}
 
 article a{
   color: green; 
@@ -270,15 +252,3 @@ article a:hover{
   min-width: 635px;
 }
 
-.csvButtons li{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-weight: bold;
-  border: .05em solid #212121; 
-  margin: 0.5em;
-  padding: 0.5em;
-}
-
-.csvButtons li:hover,
-.csvButtons li:focus{
-  background-color: antiquewhite;
-}

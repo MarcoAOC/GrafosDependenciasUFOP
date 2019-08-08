@@ -1,4 +1,9 @@
 function changeprod() {
+    if(typeof mycall !== 'undefined'){
+        if(mycall==false){
+            resetcookies();
+        }
+    }
     window.nodesSet = new vis.DataSet([
 
         {level: 1, id: 'CEA001', label: 'GAAL', title: 'CEA001 GEOMETRIA ANALITCA E ALGEBRA LINEAR',y:-1200},
@@ -164,7 +169,10 @@ function changeprod() {
         }
 
         available[node.id] = true;
-        node.color = green;
+        if(taken[node.id]==true)
+            node.color = blue;
+        else
+            node.color = green;
 
         nodesSet.update(node);
     });

@@ -19,13 +19,14 @@
 <body>
 <div class="header">
     <h1>Grafo de dependências - ICEA UFOP 19.2 </h1>
-    <h2 id="curso">Engenharia De Computação</h2>
+    <h2 id="curso"></h2>
+
 </div>
 <div class="topnav">
-    <button onclick="changecompt()">Engenharia de Computação</button> 
-    <button onclick="changeprod()">Engenharia de Produção</button> 
-    <button onclick="chageelet()">Engenharia Elétrica</button> 
-    <button onclick="changesis()">Sistemas de Informação</button> 
+    <button id="compt" onclick="naoapagar=false;changecompt()">Engenharia de Computação</button> 
+    <button id="prod" onclick="naoapagar=false;changeprod()">Engenharia de Produção</button> 
+    <button id="elet"onclick="naoapagar=false;chageelet()">Engenharia Elétrica</button> 
+    <button id="sis" onclick="naoapagar=false;changesis()">Sistemas de Informação</button> 
 </div>
 <div class="row">
         <div class="rightcolumn">
@@ -59,8 +60,9 @@
         </ul>
     </div>
 </div>
-<script type="text/javascript" src="./graph.js"></script>
 <script type="text/javascript" src="./compt.js"></script>
+<script type="text/javascript" src="./cookie.js"></script>  
+<script type="text/javascript" src="./graph.js"></script>
 <script type="text/javascript" src="./eletrica.js"></script>
 <script type="text/javascript" src="./sistemas.js"></script>
 <script type="text/javascript" src="./producao.js"></script>
@@ -78,11 +80,12 @@
         border: 'rgba(43,233,124,1)',
         background: 'rgba(151,252,194,1)',
     }
-
-    var taken = [];
-    var available = [];
+    
+    var taken = {};
+    var available = {};
 
     var container = document.getElementById('mynetwork');
+    
     var data = {
         nodes: nodesSet,
         edges: edgesSet,
@@ -116,12 +119,17 @@
             selectable: false,
         },
     };
-
     var network = new vis.Network(container, data, options);
+    readcookies();
+    
+
+    
     network.stabilize();
 
     nodesSet.forEach(function (node) {
-        var edges = edgesSet.get({returnType: 'Object'});
+        //if(localStorage.getItem("change")!="true"){
+            var edges = edgesSet.get({returnType: 'Object'});
+        //}
         var connEdges = network.getConnectedEdges(node.id);
 
         for (j = 0; j < connEdges.length; j++) {
@@ -133,13 +141,18 @@
                 return;
             }
         }
-
+        
+       // if(localStorage.getItem("change")!="true"){
         available[node.id] = true;
-        node.color = green;
+        if(taken[node.id]==true)
+            node.color = blue;
+        else
+            node.color = green;
+        //}
 
         nodesSet.update(node);
     });
-
+    
     network.on("click", function (params) {
         var nodes = nodesSet.get({returnType: 'Object'});
         var edges = edgesSet.get({returnType: 'Object'});
@@ -188,6 +201,9 @@
             }
         }
         nodesSet.update(updateArray);
+        if(window.fakeclick!=true){
+            createCookie();
+        }
         //network.stabilize();
     });
     network.on("doubleClick", function (params) {
@@ -248,6 +264,5 @@
 
 
 </script>
-
 </body>
 </html>

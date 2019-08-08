@@ -1,4 +1,9 @@
 function changesis() {
+    if(typeof mycall !== 'undefined'){
+        if(mycall==false){
+            resetcookies();
+        }
+    }
     window.nodesSet = new vis.DataSet([
 
         {level: 1, id: 'CEA036', label: 'GAAL', title: 'CEA036 FUNDAMENTOS DE GEOMETRIA ANALITCA E ALGEBRA LINEAR',y:-1200},
@@ -118,10 +123,13 @@ function changesis() {
         }
 
         available[node.id] = true;
-        node.color = green;
+        if(taken[node.id]==true)
+            node.color = blue;
+        else
+            node.color = green;
 
         nodesSet.update(node);
     });
-    document.getElementById("curso").innerHTML = "Sistema de informação";
+    document.getElementById("curso").innerHTML = "Sistemas de Informação";
 }
 
