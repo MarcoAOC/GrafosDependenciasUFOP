@@ -1,0 +1,2012 @@
+{
+    "CEA038": {
+        "name": "QUIMICA GERAL",
+        "times": [
+            {
+                "horario": "SEX 15:20-17:00(T)",
+                "professor": "KARLA MOREIRA VIEIRA(T)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "SEX 19:00-20:40(T)",
+                "professor": "KARLA MOREIRA VIEIRA(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEX 15:20-17:00(T)",
+                "professor": "LUCILIA ALVES LINHARES(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA039": {
+        "name": "QUIMICA GERAL EXPERIMENTAL",
+        "times": [
+            {
+                "horario": "SEX 13:30-15:10(P)",
+                "professor": "LUCILIA ALVES LINHARES(P)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "SEX 13:30-15:10(P)",
+                "professor": "FERNANDA TATIA CRUZ(P)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "QUA 21:00-22:40(P)",
+                "professor": "FERNANDA TATIA CRUZ(P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 21:00-22:40(P)",
+                "professor": "KARLA MOREIRA VIEIRA(P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 13:30-15:10(P)",
+                "professor": "FERNANDA TATIA CRUZ(P)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "QUA 13:30-15:10(P)",
+                "professor": "KARLA MOREIRA VIEIRA(P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA049": {
+        "name": "GEOMETRIA ANALITICA E ALGEBRA LINEAR",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-17:00(T)",
+                "professor": "HUGO FONSECA ARAUJO(T)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 21:00-22:40(T)",
+                "professor": "RAFAEL SANTOS THEBALDI(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 15:20-17:00(T) / QUI 13:30-15:10(T)",
+                "professor": "DANILO SANCAO DA SILVEIRA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA050": {
+        "name": "CALCULO DIFERENCIAL E INTEGRAL I",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-17:00(T)",
+                "professor": "HENRIQUE FERNANDES VIEIRA VICTORIA(T)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "SEG 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "FREDDY PABLO CASTRO VICENTE(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "RAFAEL SANTOS THEBALDI(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA051": {
+        "name": "CALCULO DIFERENCIAL E INTEGRAL II",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "FELIPO BACANI(T)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "TER 13:30-15:10(T) / SEX 15:20-17:00(T)",
+                "professor": "RAFAEL SANTOS THEBALDI(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "HUGO FONSECA ARAUJO(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA052": {
+        "name": "CALCULO DIFERENCIAL E INTEGRAL III",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 15:20-17:00(T)",
+                "professor": "FREDDY PABLO CASTRO VICENTE(T)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 21:00-22:40(T)",
+                "professor": "CRISTIANO SANTOS BENJAMIN(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 15:20-17:00(T)",
+                "professor": "ANLIY NATSUYO NASHIMOTO SARGEANT(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA053": {
+        "name": "PROBABILIDADE",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / SEX 13:30-15:10(T)",
+                "professor": "FELIPO BACANI(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "CEA054": {
+        "name": "ESTATISTICA I",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "DANILO SANCAO DA SILVEIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "CEA055": {
+        "name": "ESTATISTICA E PROBABILIDADE",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "FELIPO BACANI(T)",
+                "curso": "SJM"
+            },
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "ANLIY NATSUYO NASHIMOTO SARGEANT(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 19:00-20:40(T)",
+                "professor": "MARCOS GOULART LIMA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA056": {
+        "name": "INTRODUCAO AS EQUACOES DIFERENCIAIS ORDINARIAS",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 13:30-15:10(T)",
+                "professor": "CRISTIANO SANTOS BENJAMIN(T)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 19:00-20:40(T)",
+                "professor": "HUGO FONSECA ARAUJO(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 15:20-17:00(T) / QUI 13:30-15:10(T)",
+                "professor": "FREDDY PABLO CASTRO VICENTE(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA057": {
+        "name": "METODOS MATEMATICOS APLICADOS A ENGENHARIA ELETRICA",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "CARLOS RENATO PONTES(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA058": {
+        "name": "CALCULO NUMERICO",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 21:00-21:50(T) / SEX 21:50-22:40(P)",
+                "professor": "MARCOS GOULART LIMA(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "CEA059": {
+        "name": "FUNDAMENTOS DE GEOMETRIA ANALITICA E ALGEBRA LINEAR",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "DANILO SANCAO DA SILVEIRA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CEA060": {
+        "name": "FUNDAMENTOS DE CALCULO",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 21:00-22:40(T)",
+                "professor": "HENRIQUE FERNANDES VIEIRA VICTORIA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CEA061": {
+        "name": "FISICA I",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 21:00-21:50(T) / SEX 21:50-22:40(P)",
+                "professor": "FERNANDA TATIA CRUZ(T+P)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 15:20-16:10(T) / QUI 16:10-17:00(P)",
+                "professor": "ADAM JAMES SARGEANT(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 19:00-20:40(T) / SEX 21:00-21:50(T) / SEX 21:50-22:40(P)",
+                "professor": "ADAM JAMES SARGEANT(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA062": {
+        "name": "FISICA II",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 15:20-16:10(T) / SEX 16:10-17:00(P)",
+                "professor": "RONAN SILVA FERREIRA(T+P)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "ADAM JAMES SARGEANT(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 13:30-14:20(T) / SEX 14:20-15:10(P)",
+                "professor": "RONAN SILVA FERREIRA(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA063": {
+        "name": "FISICA III",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 19:00-19:50(T) / QUA 19:50-20:40(P)",
+                "professor": "JUVENIL SIQUEIRA DE OLIVEIRA FILHO(T+P)",
+                "curso": "PJM"
+            },
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 21:00-21:50(T) / SEX 21:50-22:40(P)",
+                "professor": "CARLOS RENATO PONTES(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-21:50(T) / QUI 21:50-22:40(P)",
+                "professor": "JUVENIL SIQUEIRA DE OLIVEIRA FILHO(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA064": {
+        "name": "FISICA IV",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 13:30-14:20(T) / QUA 14:20-15:10(P)",
+                "professor": "HENRIQUE FERNANDES VIEIRA VICTORIA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-16:10(T) / QUI 16:10-17:00(P)",
+                "professor": "CARLOS RENATO PONTES(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA065": {
+        "name": "MECANICA QUANTICA APLICADA",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "JUVENIL SIQUEIRA DE OLIVEIRA FILHO(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA066": {
+        "name": "FUNDAMENTOS DE CIENCIA DO AMBIENTE",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T)",
+                "professor": "LUCILIA ALVES LINHARES(T)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 19:00-20:40(T)",
+                "professor": "LUCILIA ALVES LINHARES(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA067": {
+        "name": "PRINCIPIOS DE CIENCIAS DE MATERIAIS",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "KARLA MOREIRA VIEIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "CSI002": {
+        "name": "ALGORITMOS I",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 13:30-15:10(P)",
+                "professor": "HELEN DE CASSIA SOUSA DA COSTA LIMA(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "CSI009": {
+        "name": "FUNDAMENTOS DE SISTEMAS DE INFORMACAO",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 13:30-15:10(T)",
+                "professor": "FERNANDO BERNARDES DE OLIVEIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "CSI011": {
+        "name": "MATEMATICA DISCRETA",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 13:30-15:10(T)",
+                "professor": "LUIZ OTAVIO MENEZES TELES(T)",
+                "curso": "SJM"
+            },
+            {
+                "horario": "SEG 17:10-18:50(T) / QUA 17:10-18:50(T)",
+                "professor": "LUIZ OTAVIO MENEZES TELES(T)",
+                "curso": ""
+            }
+        ]
+    },
+    "CSI030": {
+        "name": "PROGRAMACAO DE COMPUTADORES I",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(P)",
+                "professor": "FERNANDO BERNARDES DE OLIVEIRA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-17:00(P)",
+                "professor": "TIAGO FRANCA MELO DE LIMA(T+P)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "TER 17:10-18:50(T) / SEX 17:10-18:50(P)",
+                "professor": "",
+                "curso": ""
+            }
+        ]
+    },
+    "CSI032": {
+        "name": "PROGRAMACAO DE COMPUTADORES II",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUI 19:00-20:40(P)",
+                "professor": "RAFAEL FREDERICO ALEXANDRE(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI101": {
+        "name": "PROGRAMACAO DE COMPUTADORES I",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(P)",
+                "professor": "",
+                "curso": "SJM"
+            },
+            {
+                "horario": "TER 17:10-18:50(T) / SEX 17:10-18:50(P)",
+                "professor": "",
+                "curso": ""
+            }
+        ]
+    },
+    "CSI102": {
+        "name": "PROGRAMACAO DE COMPUTADORES II",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-15:10(P)",
+                "professor": "RAFAEL FREDERICO ALEXANDRE(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI103": {
+        "name": "ALGORITMOS E ESTRUTURAS DE DADOS I",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-15:10(P)",
+                "professor": "MATEUS FERREIRA SATLER(T+P)",
+                "curso": "SJM"
+            },
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 15:20-17:00(P)",
+                "professor": "MATEUS FERREIRA SATLER(T+P)",
+                "curso": ""
+            }
+        ]
+    },
+    "CSI104": {
+        "name": "ALGORITMOS E ESTRUTURAS DE DADOS II",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-19:50(T) / QUI 19:50-20:40(P)",
+                "professor": "TATIANA ALVES COSTA(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI105": {
+        "name": "ALGORITMOS E ESTRUTURAS DE DADOS III",
+        "times": [
+            {
+                "horario": "QUA 19:00-20:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "GEORGE HENRIQUE GODIM DA FONSECA(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI106": {
+        "name": "FUNDAMENTOS TEORICOS DA COMPUTACAO",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 21:00-22:40(T)",
+                "professor": "VINICIUS VITOR DOS SANTOS DIAS(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI107": {
+        "name": "LINGUAGENS DE PROGRAMACAO",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 15:20-17:00(T)",
+                "professor": "LUIZ CARLOS BAMBIRRA TORRES(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI148": {
+        "name": "ANALISE NUMERICA",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 13:30-15:10(P)",
+                "professor": "DARLAN NUNES DE BRITO(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 15:20-17:00(P)",
+                "professor": "DARLAN NUNES DE BRITO(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI201": {
+        "name": "INTRODUCAO A ENGENHARIA DE COMPUTACAO",
+        "times": [
+            {
+                "horario": "QUI 15:20-17:00(T)",
+                "professor": "SAMUEL SOUZA BRITO(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI202": {
+        "name": "ORGANIZACAO E ARQUITETURA DE COMPUTADORES I",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 21:00-22:40(T)",
+                "professor": "CARLOS HENRIQUE GOMES FERREIRA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI203": {
+        "name": "ORGANIZACAO E ARQUITETURA DE COMPUTADORES I",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 15:20-17:00(P)",
+                "professor": "EDUARDO DA SILVA RIBEIRO(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 15:20-17:00(T) / QUI 13:30-15:10(P)",
+                "professor": "EDUARDO DA SILVA RIBEIRO(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI204": {
+        "name": "SISTEMAS OPERACIONAIS",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "SAMUEL SOUZA BRITO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI301": {
+        "name": "REDES DE COMPUTADORES I",
+        "times": [
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "FILIPE NUNES RIBEIRO(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI302": {
+        "name": "SISTEMAS DISTRIBUIDOS",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-14:20(T) / QUI 14:20-15:10(P)",
+                "professor": "THEO SILVA LINS(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI303": {
+        "name": "SEGURANCA E AUDITORIA DE SISTEMAS",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "JANNIELE APARECIDA SOARES ARAUJO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI305": {
+        "name": "INTERNET DAS COISAS",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "THEO SILVA LINS(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI403": {
+        "name": "ENGENHARIA DE SOFTWARE I",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 15:20-17:00(T)",
+                "professor": "EULER HORTA MARINHO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI404": {
+        "name": "ENGENHARIA DE SOFTWARE II",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 21:00-22:40(T)",
+                "professor": "IGOR MUZETTI PEREIRA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI405": {
+        "name": "GERENCIA DE PROJETOS DE SOFTWARE",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "DIEGO ZUQUIM GUIMARAES GARCIA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI406": {
+        "name": "DESENVOLVIMENTO AGIL DE SOFTWARE",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / SEX 15:20-17:00(T)",
+                "professor": "DIEGO ZUQUIM GUIMARAES GARCIA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI407": {
+        "name": "QUALIDADE DE SOFTWARE",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 13:30-15:10(T)",
+                "professor": "IGOR MUZETTI PEREIRA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI408": {
+        "name": "TESTE DE SOFTWARE",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 21:00-22:40(T)",
+                "professor": "EULER HORTA MARINHO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI419": {
+        "name": "LINGUAGENS DE PROGRAMACAO",
+        "times": [
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 21:00-22:40(T)",
+                "professor": "LUIZ CARLOS BAMBIRRA TORRES(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI427": {
+        "name": "METODOLOGIA DE PESQUISA APLICADA A COMPUTACAO",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T)",
+                "professor": "CARLOS HENRIQUE GOMES FERREIRA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI428": {
+        "name": "ALGORITMOS E ESTRUTURA DE DADOS I",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 19:00-20:40(P)",
+                "professor": "GILDA APARECIDA DE ASSIS(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "CSI429": {
+        "name": "ALGORITMOS E ESTRUTURA DE DADOS II",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 19:00-20:40(T)",
+                "professor": "TATIANA ALVES COSTA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI433": {
+        "name": "SISTEMAS DISTRIBUIDOS",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUI 15:20-17:00(T)",
+                "professor": "THEO SILVA LINS(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI437": {
+        "name": "SISTEMAS OPERACIONAIS",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 13:30-15:10(T)",
+                "professor": "SAMUEL SOUZA BRITO(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI440": {
+        "name": "BANCO DE DADOS I",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "BRUNO RABELLO MONTEIRO(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI443": {
+        "name": "MATEMATICA DISCRETA",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 21:00-22:40(T)",
+                "professor": "LUIZ OTAVIO MENEZES TELES(T)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "SEG 17:10-18:50(T) / QUA 17:10-18:50(T)",
+                "professor": "LUIZ OTAVIO MENEZES TELES(T)",
+                "curso": ""
+            }
+        ]
+    },
+    "CSI450": {
+        "name": "INTERACAO HUMANO-COMPUTADOR",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 19:00-20:40(T)",
+                "professor": "DIEGO ZUQUIM GUIMARAES GARCIA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI457": {
+        "name": "INTELIGENCIA ARTIFICIAL",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "TALLES HENRIQUE DE MEDEIROS(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI466": {
+        "name": "TEORIA DOS GRAFOS",
+        "times": [
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 21:00-22:40(T)",
+                "professor": "GEORGE HENRIQUE GODIM DA FONSECA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI476": {
+        "name": "FUNDAMENTOS TEORICOS DA COMPUTACAO",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "VINICIUS VITOR DOS SANTOS DIAS(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI485": {
+        "name": "ENGENHARIA DE SOFTWARE I",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 13:30-15:10(T)",
+                "professor": "EULER HORTA MARINHO(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI488": {
+        "name": "ALGORITMOS E ESTRUTURA DE DADOS I",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 13:30-14:20(T) / QUI 14:20-15:10(P)",
+                "professor": "ALEXANDRE MAGNO DE SOUSA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-16:10(T) / QUI 16:10-17:00(P)",
+                "professor": "ALEXANDRE MAGNO DE SOUSA(T+P)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 15:20-16:10(T) / SEX 16:10-17:00(P)",
+                "professor": "MATEUS FERREIRA SATLER(T+P)",
+                "curso": ""
+            }
+        ]
+    },
+    "CSI491": {
+        "name": "INFORMATICA E SOCIEDADE",
+        "times": [
+            {
+                "horario": "SEX 19:00-20:40(T)",
+                "professor": "",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI495": {
+        "name": "TRABALHO DE CONCLUSAO DE CURSO I",
+        "times": [
+            {
+                "horario": "SEG 07:30-09:10(P) / TER 07:30-09:10(P) / QUA 07:30-09:10(P)",
+                "professor": "",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI496": {
+        "name": "TRABALHO DE CONCLUSAO DE CURSO II",
+        "times": [
+            {
+                "horario": "SEG 07:30-09:10(P) / TER 07:30-09:10(P)",
+                "professor": "",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI504": {
+        "name": "INTERACAO HUMANO-COMPUTADOR",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 13:30-15:10(T)",
+                "professor": "TIAGO FRANCA MELO DE LIMA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI506": {
+        "name": "COMPILADORES I",
+        "times": [
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 13:30-15:10(T)",
+                "professor": "LUIZ CARLOS BAMBIRRA TORRES(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI507": {
+        "name": "DESIGN E DESENVOLVIMENTO DE JOGOS",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 21:00-22:40(T)",
+                "professor": "TIAGO FRANCA MELO DE LIMA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI508": {
+        "name": "COMPUTACAO GRAFICA",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-17:00(T)",
+                "professor": "GILDA APARECIDA DE ASSIS(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI509": {
+        "name": "ORGANIZACAO E ARQUITETURA DE COMPUTADORES II",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "DARLAN NUNES DE BRITO(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI510": {
+        "name": "REDES DE COMPUTADORES II",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-16:10(T) / QUA 16:10-17:00(P)",
+                "professor": "MARLON PAOLO LIMA(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI546": {
+        "name": "PROJETO E ANALISE DE ALGORITMO",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 19:00-20:40(T)",
+                "professor": "VINICIUS VITOR DOS SANTOS DIAS(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI548": {
+        "name": "REDES DE COMPUTADORES I",
+        "times": [
+            {
+                "horario": "QUA 19:00-20:40(T) / SEX 21:00-22:40(P)",
+                "professor": "FILIPE NUNES RIBEIRO(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 19:00-20:40(P)",
+                "professor": "MARLON PAOLO LIMA(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI601": {
+        "name": "FUNDAMENTOS DE SISTEMAS DE INFORMACAO",
+        "times": [
+            {
+                "horario": "QUA 19:00-20:40(T) / SEX 21:00-22:40(T)",
+                "professor": "JANNIELE APARECIDA SOARES ARAUJO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI602": {
+        "name": "BANCO DE DADOS I",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-15:10(T)",
+                "professor": "BRUNO RABELLO MONTEIRO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI603": {
+        "name": "BANCO DE DADOS II",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 19:00-20:40(T)",
+                "professor": "BRUNO RABELLO MONTEIRO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI605": {
+        "name": "SISTEMAS DE APOIO A DECISAO",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUI 15:20-16:10(T) / QUI 16:10-17:00(P)",
+                "professor": "HELEN DE CASSIA SOUSA DA COSTA LIMA(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI606": {
+        "name": "SISTEMAS WEB I",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-17:00(P)",
+                "professor": "FERNANDO BERNARDES DE OLIVEIRA(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI609": {
+        "name": "ANALISE DE MIDIAS SOCIAIS",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-20:40(P)",
+                "professor": "HELEN DE CASSIA SOUSA DA COSTA LIMA(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI693": {
+        "name": "AVALIACAO DE DESEMPENHO DE SISTEMAS",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 21:00-22:40(T)",
+                "professor": "ALEXANDRE MAGNO DE SOUSA(T)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI701": {
+        "name": "INTELIGENCIA ARTIFICIAL",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "TALLES HENRIQUE DE MEDEIROS(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI702": {
+        "name": "INTELIGENCIA COMPUTACIONAL PARA OTIMIZACAO",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 13:30-15:10(P)",
+                "professor": "TATIANA ALVES COSTA(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI703": {
+        "name": "COMPUTACAO EVOLUCIONARIA",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / SEX 15:20-17:00(P)",
+                "professor": "JANNIELE APARECIDA SOARES ARAUJO(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CSI704": {
+        "name": "APRENDIZAGEM DE MAQUINA",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 13:30-15:10(T)",
+                "professor": "TALLES HENRIQUE DE MEDEIROS(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI705": {
+        "name": "APRENDIZAGEM PROFUNDA",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "EDUARDO DA SILVA RIBEIRO(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI801": {
+        "name": "GESTAO DA INFORMACAO",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 15:20-17:00(T)",
+                "professor": "LUCINEIA SOUZA MAIA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI802": {
+        "name": "GESTAO DA TECNOLOGIA DA INFORMACAO",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 19:00-20:40(T)",
+                "professor": "LUCINEIA SOUZA MAIA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI901": {
+        "name": "INFORMATICA E SOCIEDADE",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T)",
+                "professor": "",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI902": {
+        "name": "METODOLOGIA DE PESQUISA",
+        "times": [
+            {
+                "horario": "SEX 19:00-20:40(T)",
+                "professor": "CARLOS HENRIQUE GOMES FERREIRA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI998": {
+        "name": "TRABALHO DE CONCLUSAO DE CURSO I",
+        "times": [
+            {
+                "horario": "SEG 07:30-09:10(P) / TER 07:30-09:10(P) / QUA 07:30-09:10(P)",
+                "professor": "",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CSI999": {
+        "name": "TRABALHO DE CONCLUSAO DE CURSO II",
+        "times": [
+            {
+                "horario": "SEG 07:30-09:10(P) / TER 07:30-09:10(P)",
+                "professor": "",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "CEA026": {
+        "name": "DESENHO COMPUTACIONAL",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 13:30-15:10(P)",
+                "professor": "WENDY YADIRA ERAS HERRERA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA147": {
+        "name": "ELETRONICA EMBARCADA",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-17:00(P)",
+                "professor": "IGOR DIAS NETO DE SOUZA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA204": {
+        "name": "INTRODUCAO A ENGENHARIA ELETRICA",
+        "times": [
+            {
+                "horario": "QUA 19:00-20:40(T)",
+                "professor": "THAINAN SANTOS THEODORO(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA341": {
+        "name": "PRINCIPIOS DE ELETRONICA DIGITAL",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(P)",
+                "professor": "IGOR DIAS NETO DE SOUZA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 17:10-18:00(P) / QUI 19:00-19:50(P)",
+                "professor": "IGOR DIAS NETO DE SOUZA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-17:00(P)",
+                "professor": "THAINAN SANTOS THEODORO(T+P)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-16:10(P) / QUA 17:10-18:00(P)",
+                "professor": "THAINAN SANTOS THEODORO(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA458": {
+        "name": "METODOLOGIA DA PESQUISA",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T)",
+                "professor": "CARLOS HENRIQUE NOGUEIRA DE RESENDE BARBOSA(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA502": {
+        "name": "ELETROMAGNETISMO",
+        "times": [
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 19:00-20:40(P)",
+                "professor": "FELIPE EDUARDO MOREIRA COTA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-15:10(P)",
+                "professor": "FELIPE EDUARDO MOREIRA COTA(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA515": {
+        "name": "PROCESSAMENTO DIGITAL DE IMAGENS",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "FABRICIO JAVIER ERAZO COSTA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA550": {
+        "name": "MAQUINAS ELETRICAS I",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 15:20-17:00(P)",
+                "professor": "CARLOS HENRIQUE DA SILVA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 15:20-16:10(P) / QUA 17:10-18:00(P)",
+                "professor": "CARLOS HENRIQUE DA SILVA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA551": {
+        "name": "MODELAGEM E ANALISE DE SISTEMAS LINEARES",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUI 15:20-17:00(P)",
+                "professor": "ANNY VERLY(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA552": {
+        "name": "CIRCUITOS ELETRICOS I",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 15:20-17:00(P)",
+                "professor": "RENAN FERNANDES BASTOS(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 21:00-22:40(P) / SEX 19:00-20:40(T)",
+                "professor": "RENAN FERNANDES BASTOS(T+P)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "TER 17:10-18:00(P) / TER 21:00-21:50(P) / SEX 19:00-20:40(T)",
+                "professor": "RENAN FERNANDES BASTOS(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA555": {
+        "name": "MODELAGEM E ANALISE DE SISTEMAS LINEARES",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 21:00-22:40(T)",
+                "professor": "ANNY VERLY(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA560": {
+        "name": "MAQUINAS ELETRICAS II",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 19:00-20:40(P)",
+                "professor": "JUAN CARLOS GALVIS MANSO(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 17:10-18:00(P) / SEX 19:00-19:50(P)",
+                "professor": "JUAN CARLOS GALVIS MANSO(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA561": {
+        "name": "ELETRONICA I",
+        "times": [
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 15:20-17:00(P)",
+                "professor": "WELBERT ALVES RODRIGUES(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 21:00-22:40(P) / SEX 21:00-22:40(T)",
+                "professor": "WELBERT ALVES RODRIGUES(T+P)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "QUA 17:10-18:00(P) / QUA 21:00-21:50(P) / SEX 21:00-22:40(T)",
+                "professor": "WELBERT ALVES RODRIGUES(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA562": {
+        "name": "SINAIS E SISTEMAS",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 19:00-20:40(P)",
+                "professor": "GLAUCO FERREIRA GAZEL YARED(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 17:10-18:00(P) / QUA 19:00-19:50(P)",
+                "professor": "GLAUCO FERREIRA GAZEL YARED(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 21:00-22:40(T) / QUI 19:00-20:40(P)",
+                "professor": "GLAUCO FERREIRA GAZEL YARED(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA563": {
+        "name": "CIRCUITOS ELETRICOS II",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / SEX 21:00-22:40(P)",
+                "professor": "FRANCISCO RICARDO ABRANTES COUY BARACHO(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA570": {
+        "name": "SISTEMAS DE CONTROLE I",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 15:20-17:00(P)",
+                "professor": "MARCIO FELICIANO BRAGA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 15:20-16:10(P) / QUI 17:10-18:00(P)",
+                "professor": "MARCIO FELICIANO BRAGA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA571": {
+        "name": "ELETRONICA II",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(P)",
+                "professor": "EDGARD GREGORY TORRES SARAVIA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA572": {
+        "name": "INSTRUMENTACAO",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(P)",
+                "professor": "EDGARD GREGORY TORRES SARAVIA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA573": {
+        "name": "SISTEMAS DE POTENCIA I",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-15:10(P)",
+                "professor": "WILINGTHON GUERRA ZVIETCOVICH(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA580": {
+        "name": "MICROPROCESSADORES E MICROCONTROLADORES",
+        "times": [
+            {
+                "horario": "QUA 19:00-20:40(T) / SEX 21:00-22:40(P)",
+                "professor": "MARCELO MOREIRA TIAGO(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 19:00-20:40(T) / SEX 17:10-18:00(P) / SEX 21:00-21:50(P)",
+                "professor": "MARCELO MOREIRA TIAGO(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 15:20-17:00(P)",
+                "professor": "MARCELO MOREIRA TIAGO(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA581": {
+        "name": "ELETRONICA DE POTENCIA",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(P) / QUA 13:30-15:10(T)",
+                "professor": "THAINAN SANTOS THEODORO(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 15:20-16:10(P) / SEG 17:10-18:00(P) / QUA 13:30-15:10(T)",
+                "professor": "THAINAN SANTOS THEODORO(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA582": {
+        "name": "FUNDAMENTOS DE COMUNICACOES",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / SEX 13:30-15:10(P)",
+                "professor": "FABRICIO JAVIER ERAZO COSTA(T+P)",
+                "curso": "EJM"
+            },
+            {
+                "horario": "SEG 19:00-20:40(P) / QUA 19:00-20:40(T)",
+                "professor": "ALINE ROCHA DE ASSIS(T+P)",
+                "curso": "CJM"
+            },
+            {
+                "horario": "SEG 17:10-18:00(P) / SEG 19:00-19:50(P) / QUA 19:00-20:40(T)",
+                "professor": "ALINE ROCHA DE ASSIS(T+P)",
+                "curso": "CJM"
+            }
+        ]
+    },
+    "CEA583": {
+        "name": "SISTEMAS DE POTENCIA II",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUI 21:00-22:40(P)",
+                "professor": "CARLOS HENRIQUE NOGUEIRA DE RESENDE BARBOSA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA590": {
+        "name": "ACIONAMENTOS ELETRICOS",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUI 19:00-20:40(P)",
+                "professor": "CARLOS HENRIQUE DA SILVA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA593": {
+        "name": "MATERIAIS ELETRICOS",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 15:20-17:00(T)",
+                "professor": "FRANCISCO RICARDO ABRANTES COUY BARACHO(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA594": {
+        "name": "PROJETO INTEGRADOR",
+        "times": [
+            {
+                "horario": "TER 17:10-18:50(P) / SEX 17:10-18:50(P)",
+                "professor": "FABRICIO JAVIER ERAZO COSTA(P) / IGOR DIAS NETO DE SOUZA(P) / MARCIO FELICIANO BRAGA(P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA595": {
+        "name": "INFORMATICA INDUSTRIAL",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-17:00(P)",
+                "professor": "WENDY YADIRA ERAS HERRERA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA597": {
+        "name": "INSTALACOES ELETRICAS",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUI 15:20-17:00(T)",
+                "professor": "WILINGTHON GUERRA ZVIETCOVICH(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA598": {
+        "name": "PROJETO EM ENGENHARIA ELETRICA",
+        "times": [
+            {
+                "horario": "SEG 17:10-18:50(T)",
+                "professor": "WILINGTHON GUERRA ZVIETCOVICH(T)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA671": {
+        "name": "PROCESSAMENTO DIGITAL DE SINAIS",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 15:20-16:10(T) / SEX 16:10-17:00(P)",
+                "professor": "FABRICIO JAVIER ERAZO COSTA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA710": {
+        "name": "PROBABILIDADE E PROCESSOS ESTOCASTICOS PARA ENGENHARIA",
+        "times": [
+            {
+                "horario": "SEG 17:10-18:50(T) / QUI 17:10-18:00(T) / QUI 18:00-18:50(P)",
+                "professor": "CRISTIANO SANTOS BENJAMIN(T+P)",
+                "curso": ""
+            }
+        ]
+    },
+    "CEA716": {
+        "name": "SISTEMAS DE CONTROLE II",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "MARCIO FELICIANO BRAGA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA717": {
+        "name": "IDENTIFICACAO DE SISTEMAS",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-14:20(T) / QUI 14:20-15:10(P)",
+                "professor": "ANNY VERLY(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA723": {
+        "name": "PLANEJAMENTO DE SISTEMAS DE ENERGIA ELETRICA",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-14:20(T) / QUI 14:20-15:10(P)",
+                "professor": "CARLOS HENRIQUE NOGUEIRA DE RESENDE BARBOSA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA725": {
+        "name": "GERACAO DE ENERGIA ELETRICA",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-14:20(T) / SEX 14:20-15:10(P)",
+                "professor": "JUAN CARLOS GALVIS MANSO(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA728": {
+        "name": "CONTROLE DE ACIONAMENTOS ELETRICOS",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-14:20(T) / SEX 14:20-15:10(P)",
+                "professor": "RENAN FERNANDES BASTOS(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA735": {
+        "name": "TOPICOS ESPECIAIS EM SISTEMAS DE CONTROLE III",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 21:00-21:50(T) / QUA 21:50-22:40(P)",
+                "professor": "WENDY YADIRA ERAS HERRERA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA737": {
+        "name": "TOPICOS ESPECIAIS EM SISTEMAS ELETRICOS I",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 21:00-21:50(T) / QUA 21:50-22:40(P)",
+                "professor": "CARLOS HENRIQUE DA SILVA(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA739": {
+        "name": "TOPICOS ESPECIAIS EM SISTEMAS ELETRICOS III",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "FRANCISCO RICARDO ABRANTES COUY BARACHO(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA741": {
+        "name": "TOPICOS ESPECIAIS EM TELECOMUNICACOES I",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 21:00-21:50(T) / QUA 21:50-22:40(P)",
+                "professor": "ALINE ROCHA DE ASSIS(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA742": {
+        "name": "TOPICOS ESPECIAIS EM TELECOMUNICACOES II",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-14:20(T) / QUI 14:20-15:10(P)",
+                "professor": "GLAUCO FERREIRA GAZEL YARED(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "CEA744": {
+        "name": "TOPICOS ESPECIAIS EM TELECOMUNICACOES IV",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-14:20(T) / SEX 14:20-15:10(P)",
+                "professor": "MARCELO MOREIRA TIAGO(T+P)",
+                "curso": "EJM"
+            }
+        ]
+    },
+    "ENP004": {
+        "name": "EXPRESSAO GRAFICA",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUI 21:00-22:40(P)",
+                "professor": "RAFAEL LUCAS MACHADO PINTO(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP005": {
+        "name": "ERGONOMIA",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "FREDERICO CESAR DE VASCONCELOS GOMES(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP012": {
+        "name": "PROGRAMACAO LINEAR E INTEIRA",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-16:10(T) / QUI 16:10-17:00(P)",
+                "professor": "ALEXANDRE XAVIER MARTINS(T+P)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "ENP014": {
+        "name": "ORGANIZACAO DO TRABALHO",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / QUA 13:30-15:10(T)",
+                "professor": "WAGNER RAGI CURI FILHO(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP015": {
+        "name": "MICROECONOMIA",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "PAGANINI BARCELLOS DE OLIVEIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP017": {
+        "name": "TEORIA DAS ORGANIZACOES",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-17:00(T)",
+                "professor": "ALANA DEUSILAN SESTER PEREIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP019": {
+        "name": "PSICOLOGIA DO TRABALHO",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / SEX 19:00-20:40(T)",
+                "professor": "EVA BESSA SOARES(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP022": {
+        "name": "GESTAO DA QUALIDADE",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 19:00-20:40(T)",
+                "professor": "CLARISSA BARROS DA CRUZ(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP023": {
+        "name": "ENGENHARIA ECONOMICA",
+        "times": [
+            {
+                "horario": "QUA 15:20-17:00(T) / SEX 15:20-17:00(T)",
+                "professor": "JUNE MARQUES FERNANDES(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP025": {
+        "name": "GESTAO DO CONHECIMENTO",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 13:30-15:10(T)",
+                "professor": "ALANA DEUSILAN SESTER PEREIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP026": {
+        "name": "ADMINISTRACAO DE RECURSOS HUMANOS",
+        "times": [
+            {
+                "horario": "QUA 19:00-20:40(T) / SEX 21:00-22:40(T)",
+                "professor": "EVA BESSA SOARES(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "ENP028": {
+        "name": "GESTAO DA CADEIA DE SUPRIMENTOS",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / TER 13:30-15:10(T)",
+                "professor": "GILBERTO DE MIRANDA JUNIOR(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP029": {
+        "name": "GESTAO AMBIENTAL",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUA 19:00-20:40(T)",
+                "professor": "",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP042": {
+        "name": "INTRODUCAO A ENGENHARIA DE PRODUCAO",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T)",
+                "professor": "RAFAEL LUCAS MACHADO PINTO(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP119": {
+        "name": "LOGISTICA",
+        "times": [
+            {
+                "horario": "QUI 19:00-20:40(T) / SEX 19:00-20:40(T)",
+                "professor": "MONICA DO AMARAL(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP122": {
+        "name": "PLANEJAMENTO E CONTROLE DE PRODUCAO I",
+        "times": [
+            {
+                "horario": "SEG 15:20-17:00(T) / TER 13:30-15:10(T)",
+                "professor": "SERGIO EVANGELISTA SILVA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP123": {
+        "name": "PLANEJAMENTO E CONTROLE DE PRODUCAO II",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 19:00-20:40(T)",
+                "professor": "SERGIO EVANGELISTA SILVA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP141": {
+        "name": "CONTROLE ESTATISTICO DE QUALIDADE",
+        "times": [
+            {
+                "horario": "QUA 13:30-15:10(T) / QUI 15:20-17:00(T)",
+                "professor": "",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP144": {
+        "name": "TEORIA GERAL DA ADMINISTRACAO",
+        "times": [
+            {
+                "horario": "TER 13:30-15:10(T) / QUI 15:20-17:00(T)",
+                "professor": "RITA DE CASSIA OLIVEIRA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "ENP150": {
+        "name": "ECONOMIA",
+        "times": [
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 15:20-17:00(T)",
+                "professor": "PAGANINI BARCELLOS DE OLIVEIRA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "ENP151": {
+        "name": "CIENCIA TECNOLOGIA E SOCIEDADE",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / QUI 13:30-15:10(T)",
+                "professor": "FREDERICO CESAR DE VASCONCELOS GOMES(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP152": {
+        "name": "ETICA E RESPONSABILIDADE SOCIOAMBIENTAL",
+        "times": [
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 19:00-20:40(T)",
+                "professor": "",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP153": {
+        "name": "PROGRAMACAO LINEAR",
+        "times": [
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "GILBERTO DE MIRANDA JUNIOR(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP154": {
+        "name": "PLANEJAMENTO ESTRATEGICO E MERCADOLOGICO",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "ALANA DEUSILAN SESTER PEREIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP155": {
+        "name": "CUSTOS INDUSTRIAIS",
+        "times": [
+            {
+                "horario": "QUA 21:00-22:40(T) / SEX 21:00-22:40(T)",
+                "professor": "",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP156": {
+        "name": "GESTAO DE SERVICOS",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 21:00-22:40(T)",
+                "professor": "WAGNER RAGI CURI FILHO(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP157": {
+        "name": "ESTATISTICA II",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-14:20(T) / QUI 14:20-15:10(P)",
+                "professor": "LUCIANA PAULA REIS(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP158": {
+        "name": "MODELAGEM DE SISTEMAS PRODUTIVOS E LOGISTICOS I",
+        "times": [
+            {
+                "horario": "QUI 15:20-17:00(T) / SEX 13:30-14:20(T) / SEX 14:20-15:10(P)",
+                "professor": "MONICA DO AMARAL(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP159": {
+        "name": "SISTEMA DE DESENVOLVIMENTO DE PRODUTO",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / SEX 21:00-21:50(T) / SEX 21:50-22:40(P)",
+                "professor": "",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP160": {
+        "name": "OTIMIZACAO COMBINATORIA",
+        "times": [
+            {
+                "horario": "TER 15:20-17:00(T) / SEX 15:20-16:10(T) / SEX 16:10-17:00(P)",
+                "professor": "GILBERTO DE MIRANDA JUNIOR(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP161": {
+        "name": "SIMULACAO A EVENTOS DISCRETOS",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / SEX 19:00-19:50(T) / SEX 19:50-20:40(P)",
+                "professor": "THIAGO AUGUSTO DE OLIVEIRA SILVA(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP473": {
+        "name": "COMPORTAMENTO ORGANIZACIONAL",
+        "times": [
+            {
+                "horario": "SEG 19:00-20:40(T) / QUA 21:00-22:40(T)",
+                "professor": "EVA BESSA SOARES(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "ENP493": {
+        "name": "EMPREENDEDORISMO",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "RITA DE CASSIA OLIVEIRA(T)",
+                "curso": "SJM"
+            }
+        ]
+    },
+    "ENP530": {
+        "name": "GESTAO POR PROCESSOS",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUA 15:20-17:00(T)",
+                "professor": "",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP533": {
+        "name": "TOPICOS EM GESTAO DA PRODUCAO",
+        "times": [
+            {
+                "horario": "SEG 21:00-22:40(T) / QUA 21:00-22:40(T)",
+                "professor": "CLARISSA BARROS DA CRUZ(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP534": {
+        "name": "GESTAO DE PROJETOS",
+        "times": [
+            {
+                "horario": "TER 19:00-20:40(T) / QUI 21:00-22:40(T)",
+                "professor": "FREDERICO CESAR DE VASCONCELOS GOMES(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP569": {
+        "name": "TOP EM LOGISTICA E GESTAO DA CADEIA DE SUPRIMENTOS",
+        "times": [
+            {
+                "horario": "QUI 21:00-22:40(T) / SEX 21:00-22:40(T)",
+                "professor": "MONICA DO AMARAL(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP570": {
+        "name": "TOPICOS EM PESQUISA OPERACIONAL",
+        "times": [
+            {
+                "horario": "QUA 13:30-15:10(T) / SEX 15:20-17:00(T)",
+                "professor": "THIAGO AUGUSTO DE OLIVEIRA SILVA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP572": {
+        "name": "TOPICOS EM ENGENHARIA DA SUSTENTABILIDADE",
+        "times": [
+            {
+                "horario": "TER 21:00-22:40(T) / QUI 19:00-20:40(T)",
+                "professor": "RITA DE CASSIA OLIVEIRA(T)",
+                "curso": "PJM"
+            }
+        ]
+    },
+    "ENP701": {
+        "name": "ENGENHARIA DE PROCESSOS MECANICOS",
+        "times": [
+            {
+                "horario": "SEG 13:30-15:10(T) / QUI 13:30-15:10(P)",
+                "professor": "RAFAEL LUCAS MACHADO PINTO(T+P)",
+                "curso": "PJM"
+            }
+        ]
+    }
+}

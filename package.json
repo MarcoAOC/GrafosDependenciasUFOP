@@ -13,6 +13,7 @@
   "dependencies": {
     "pdf2json": "^3.0.3",
     "pdfreader": "^3.0.0",
+    "selenium-webdriver": "^4.8.2",
     "vis-data": "^7.1.6",
     "vis-network": "^9.1.6",
     "vis-util": "^5.0.3",
