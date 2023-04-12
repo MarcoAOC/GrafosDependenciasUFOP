@@ -71,6 +71,16 @@ cursos.map(async curso => {
             title: `${disciplina.code} - ${disciplina.name}`,
         })
         disciplina.preRequisitos.forEach(preRequisito => {
+            if (!nodesAndEdges.nodes.find(x => x.id == preRequisito)) {
+                nodesAndEdges.nodes.push(
+                    {
+                        level: +disciplina.periodo - 1,
+                        id: preRequisito,
+                        label: preRequisito,
+                        title: preRequisito,
+                    }
+                )
+            }
             nodesAndEdges.edges.push({
                 to: disciplina.code,
                 from: preRequisito,

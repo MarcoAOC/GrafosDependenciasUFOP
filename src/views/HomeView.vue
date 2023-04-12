@@ -1,76 +1,29 @@
 <script setup>
 import { reactive, ref, onMounted } from 'vue';
-import VisNetwork from '../components/VisNetwork.vue';
 import Button from '../components/Button.vue';
-import Select from '../components/Select.vue';
 import Toggle from '../components/Toggle.vue';
-import computacao from '../generated/CJM.json';
-import eletrica from '../generated/EJM.json';
-import sistemas from '../generated/SJM.json';
-import producao from '../generated/PJM.json';
+import GraphView from './GraphView.vue'
+import TimeTable from './TimeTable.vue'
 
-const COURSES = {
-  CJM: { label: 'Engenharia de Computação', id: 'CJM', file: computacao },
-  PJM: { label: 'Engenharia de Produção', id: 'PJM', file: producao },
-  EJM: { label: 'Engenharia Elétrica', id: 'EJM', file: eletrica },
-  SJM: { label: 'Sistemas de Informação', id: 'SJM', file: sistemas },
-}
-const options = [
-  { label: COURSES.CJM.label, value: COURSES.CJM.id },
-  { label: COURSES.PJM.label, value: COURSES.PJM.id },
-  { label: COURSES.EJM.label, value: COURSES.EJM.id },
-  { label: COURSES.SJM.label, value: COURSES.SJM.id },
-]
-const state = reactive({ selectedCourse: null, isDark: null })
+const state = reactive({ isDark: true, view: 'graph' })
 
 </script>
 
 <template>
   <main :class="[{ dark: state.isDark }]">
-    <div class="w-100 bg-gray-500 p-10">
-      <h1>Grafo de dependências - ICEA UFOP 23.1</h1>
-      <h2>{{ COURSES[state?.selectedCourse]?.label }}</h2>
+    <div class="dark:bg-gray-700">
+      <div class="absolute top-0 right-0">
+        <Toggle v-model="state.isDark">Dark Mode</Toggle>
+      </div>
+      <div class="text-xl text-center">
+        <h1>Apoio de Matrícula - ICEA UFOP 23.1</h1>
+      </div>
       <div class="mt-10 flex">
-        <div class="mr-10"><Button text="Grafos" /></div>
-        <div><Button text="Horários" /></div>
+        <div class="mr-10"><Button @click="state.view = 'graph'">Disciplinas e Dependências</Button></div>
+        <div><Button @click="state.view = 'timetable'">Tabela de Horários</Button></div>
       </div>
-      <Toggle v-model="state.isDark">Dark Mode</Toggle>
     </div>
-
-    <div class="flex w-100">
-      <div class="flex-none w-64">
-        <div class="w-100 p-10">
-          <h3 class="font-bold">Legenda:</h3>
-          <ul class="list-disc">
-            <li>Cada coluna é referente a um período</li>
-            <li>Cinza: Matéria não pode ser Feita</li>
-            <li>Verde: Matéria pode ser feita</li>
-            <li>Azul: Matéria Feita</li>
-
-          </ul>
-          <h3 class="font-bold mt-10">Dicas:</h3>
-          <ul class="list-disc">
-            <li>Recomendado utilizar no computador</li>
-            <li>É possível marcar matérias mesmo sem ter os pré requisitos necessário para poder usar "quebra de pré
-              requisito"</li>
-            <li>É possível reordenar as matérias no "eixo" do período</li>
-            <li>Ao colocar o mouse em cima de um nó de matéria é possivel ver o nome e código da disciplina</li>
-            <li>Ao clicar e segurar em uma matéria, as arestas que incidem e ascendem do mesmo são destacadas</li>
-            <li>Em caso de sumir algum nó de matéria, reinicie a página</li>
-          </ul>
-        </div>
-      </div>
-      <div class="flex-1 w-64">
-        <div class="card">
-          <div class="row">
-            <Select v-model="state.selectedCourse" label="Selectione um curso" :options="options" />
-            <div class="mt-6 border-2 border-black rounded-md flex-col h-[45rem]">
-              <VisNetwork :selectedCourse="COURSES[state?.selectedCourse]"></VisNetwork>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    <GraphView v-if="state.view == 'graph'"></GraphView>
+    <TimeTable v-else></TimeTable>
   </main>
 </template>

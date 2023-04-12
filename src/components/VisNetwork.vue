@@ -8,10 +8,15 @@ const props = defineProps(['selectedCourse'])
 const selectedCourse = toRef(props, 'selectedCourse')
 
 const visNetwork = ref(null);
-
-watch(selectedCourse, (newSelectedCourse) => {
-  const disciplines = newSelectedCourse.file.nodes
-  const edgesSet = new DataSet(newSelectedCourse.file.edges)
+function updateLocalStorage(networkInfo) {
+  const { nodes, edges, taken, code, available } = networkInfo
+  localStorage.setItem("nodes", JSON.stringify(nodes))
+  localStorage.setItem("edges", JSON.stringify(edges))
+  localStorage.setItem("code", code)
+  localStorage.setItem("taken", JSON.stringify(taken))
+  localStorage.setItem("available", JSON.stringify(available))
+}
+function getNodeSetFromDisciplinesFile(disciplines) {
   const groupedDisciplines = disciplines.reduce((groups, item) => {
     const level = item.level;
     if (!groups[level]) {
@@ -21,41 +26,37 @@ watch(selectedCourse, (newSelectedCourse) => {
     return groups;
   }, {});
 
-  const nodesSet = new DataSet(Object.keys(groupedDisciplines).map(level => {
+  return new DataSet(Object.keys(groupedDisciplines).map(level => {
     return groupedDisciplines[level].map((discipline, idx) => ({ ...discipline, fixed: { x: true }, y: idx * 100, x: discipline.level * 300 }))
   }).flat());
+}
+function updateNodes(nodesSet, edgesSet, network, taken, available) {
+  const edges = edgesSet.get({ returnType: 'Object' });
+  nodesSet.forEach(function (node) {
+    const connEdges = network.getConnectedEdges(node.id);
 
-
-  const network = new Network(visNetwork.value, { nodes: nodesSet, edges: edgesSet }, options);
-
-  var taken = {};
-  var available = {};
-  const updateNodes = () => {
-    nodesSet.forEach(function (node) {
-      var edges = edgesSet.get({ returnType: 'Object' });
-      var connEdges = network.getConnectedEdges(node.id);
-
-      for (let j = 0; j < connEdges.length; j++) {
-        if (!taken[node.id] && edges[connEdges[j]].to == node.id && !taken[edges[connEdges[j]].from]) {
-          available[node.id] = false;
-          node.color = gray;
-          nodesSet.update(node);
-          return;
-        }
+    for (let j = 0; j < connEdges.length; j++) {
+      if (!taken[node.id] && edges[connEdges[j]].to == node.id && !taken[edges[connEdges[j]].from]) {
+        available[node.id] = false;
+        node.color = gray;
+        nodesSet.update(node);
+        return;
       }
-      available[node.id] = true;
-      if (taken[node.id])
-        node.color = blue;
-      else
-        node.color = green;
+    }
+    available[node.id] = true;
+    if (taken[node.id])
+      node.color = blue;
+    else
+      node.color = green;
 
-      nodesSet.update(node);
-    });
-  }
-  updateNodes()
+    nodesSet.update(node);
+  });
+  const nodes = nodesSet.get({ returnType: 'Object' });
+  updateLocalStorage({ nodes, edges, code: props.selectedCourse.id, taken, available })
+}
+const networkEventHandlerGenerator = (nodesSet, edgesSet, network, taken, available) => {
   network.on("dragEnd", network.unselectAll)
   network.on("click", function (params) {
-    var edges = edgesSet.get({ returnType: 'Object' });
     const selectedNodeId = network.getNodeAt(params.pointer.DOM);
     if (selectedNodeId == undefined)
       return;
@@ -73,8 +74,20 @@ watch(selectedCourse, (newSelectedCourse) => {
     }
     nodesSet.update(selectedNode)
 
-    updateNodes()
+    updateNodes(nodesSet, edgesSet, network, taken, available)
   });
+}
+watch(selectedCourse, (newSelectedCourse) => {
+  const disciplines = newSelectedCourse.file.nodes
+  const edgesSet = new DataSet(newSelectedCourse.file.edges)
+  const nodesSet = getNodeSetFromDisciplinesFile(disciplines)
+  const network = new Network(visNetwork.value, { nodes: nodesSet, edges: edgesSet }, options);
+
+  const taken = {};
+  const available = {};
+
+  updateNodes(nodesSet, edgesSet, network, taken, available)
+  networkEventHandlerGenerator(nodesSet, edgesSet, network, taken, available)
 })
 
 const gray = {
