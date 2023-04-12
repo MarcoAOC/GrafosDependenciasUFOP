@@ -14,11 +14,15 @@ const tabs = [{
   label: 'Tabela de Horários',
   id: 'timetable'
 }]
+
+const selectedTab = (tab) => {
+  state.view = tab.id
+}
 </script>
 
 <template>
   <main :class="[{ dark: state.isDark }]">
-    <div class="dark:bg-gray-700">
+    <div class="dark:bg-gray-700 p-10">
       <div>
         <div class="absolute top-0 right-0">
           <Toggle v-model="state.isDark">Dark Mode</Toggle>
@@ -28,7 +32,7 @@ const tabs = [{
         </div>
       </div>
 
-      <Tabs :tabs="tabs" @selected="(x) => state.view = x.id"></Tabs>
+      <Tabs :tabs="tabs" @selected="selectedTab"></Tabs>
       <GraphView v-if="state.view == 'graph'"></GraphView>
       <TimeTable v-else></TimeTable>
     </div>

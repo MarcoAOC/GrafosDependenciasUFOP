@@ -1,6 +1,7 @@
 <script setup>
 import { reactive, ref } from 'vue'
 import Table from '../components/Table.vue';
+import Card from '../components/Card.vue';
 import Search from '../components/Search.vue';
 import Button from '../components/Button.vue';
 import timeTable from '../generated/time-table.json'
@@ -68,11 +69,25 @@ function daySelectionCol(dateAbr) {
 
 </script>
 <template>
-    <Search :searchList="horarios" placeholder="Pesquisar disciplinas" @selected="toggleDisciplina"
-        :search-keys="['code', 'name', 'professor']" :render-list-function="renderListFunction"></Search>
-    <Table :table-data="tableData"> </Table>
-    <div v-for="disciplina in selectedDisciplinas">
-        {{ disciplina }}
-        <Button @click="() => toggleDisciplina(disciplina)">X</Button>
+    <div class="h-screen">
+        <Search class="mt-6" :searchList="horarios" placeholder="Pesquisar disciplinas" @selected="toggleDisciplina"
+            :search-keys="['code', 'name', 'professor']" :render-list-function="renderListFunction"></Search>
+        <Table class="mt-6" :table-data="tableData"> </Table>
+        <div class="mt-8">
+            Matérias selecionadas
+        </div>
+        <div class="flex flex-wrap gap-2.5 mt-4">
+            <div class="w-96" v-for="disciplina in selectedDisciplinas">
+                <Card>
+                    <template #title>
+                        <div class="flex">
+                            <div>{{ disciplina.code }}</div>
+                            <div class="ml-auto"><Button @click="() => toggleDisciplina(disciplina)">X</Button></div>
+                        </div>
+                    </template>
+                    <template #description>{{ disciplina.name }}</template>
+                </Card>
+            </div>
+        </div>
     </div>
 </template>
