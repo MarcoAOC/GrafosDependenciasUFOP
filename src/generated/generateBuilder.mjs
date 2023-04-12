@@ -4,7 +4,7 @@ import { createWriteStream, writeFileSync } from 'fs';
 import { Builder, Browser, By, Key, until } from 'selenium-webdriver';
 
 const baseUrl = 'https://zeppelin10.ufop.br/SistemaAcademico/MatrizCurricular?codCurso='
-const basePath = '.'
+const basePath = './src/generated'
 const cursos = ['CJM', 'EJM', 'PJM', 'SJM']
 
 function extractDisciplinesFromPdf(pdfTextArray) {
@@ -154,7 +154,7 @@ try {
                             timeTableByCode[code] = { name, times: [] }
                         }
                         timeTableByCode[code].times.push({
-                            horario, professor, curso
+                            horario, professor, curso, turma
                         })
                     }
                 }

@@ -5,7 +5,7 @@ import Toggle from '../components/Toggle.vue';
 import GraphView from './GraphView.vue'
 import TimeTable from './TimeTable.vue'
 
-const state = reactive({ isDark: true, view: 'graph' })
+const state = reactive({ isDark: true, view: 'timetable' })
 
 </script>
 
