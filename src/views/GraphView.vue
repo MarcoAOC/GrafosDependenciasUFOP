@@ -1,7 +1,7 @@
 <script setup>
 import VisNetwork from '../components/VisNetwork.vue';
 import Select from '../components/Select.vue';
-import { reactive } from 'vue';
+import { reactive, onMounted } from 'vue';
 import computacao from '../generated/CJM.json';
 import eletrica from '../generated/EJM.json';
 import sistemas from '../generated/SJM.json';
@@ -20,6 +20,12 @@ const options = [
     { label: COURSES.SJM.label, value: COURSES.SJM.id },
 ]
 const state = reactive({ selectedCourse: null })
+onMounted(() => {
+    const code = localStorage.getItem("code")
+    if (code) {
+        state.selectedCourse = code
+    }
+})
 </script>
 <template>
     <div class="w-100 bg-gray-500 p-10 flex">

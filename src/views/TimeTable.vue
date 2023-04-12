@@ -1,17 +1,10 @@
 <script setup>
-import { reactive, ref, watch } from 'vue'
+import { reactive, ref } from 'vue'
 import Table from '../components/Table.vue';
 import Search from '../components/Search.vue';
 import Button from '../components/Button.vue';
 import timeTable from '../generated/time-table.json'
-const dropOptions = [
-    { label: "Todos", onClick: () => { console.log("clicou aqui") } },
-    { label: "DECSI", onClick: () => { console.log("clicou aqui") } },
-    { label: "DEELT", onClick: () => { console.log("clicou aqui") } },
-    { label: "DECEA", onClick: () => { console.log("clicou aqui") } },
-    { label: "DEENP", onClick: () => { console.log("clicou aqui") } },
-]
-console.log(timeTable)
+
 const horarios = Object.keys(timeTable).map(key => {
     return timeTable[key].times.map(time => ({ code: key, name: timeTable[key].name, time: time.horario, professor: time.professor, curso: time.curso, turma: time.turma }))
 }).flat()
@@ -75,9 +68,8 @@ function daySelectionCol(dateAbr) {
 
 </script>
 <template>
-    <Search filter-label-drop="Departamentos" :drop-options="dropOptions" :searchList="horarios"
-        placeholder="Pesquisar disciplinas" @selected="toggleDisciplina" :search-keys="['code', 'name', 'professor']"
-        :render-list-function="renderListFunction"></Search>
+    <Search :searchList="horarios" placeholder="Pesquisar disciplinas" @selected="toggleDisciplina"
+        :search-keys="['code', 'name', 'professor']" :render-list-function="renderListFunction"></Search>
     <Table :table-data="tableData"> </Table>
     <div v-for="disciplina in selectedDisciplinas">
         {{ disciplina }}

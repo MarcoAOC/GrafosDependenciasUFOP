@@ -1,5 +1,5 @@
 <script setup>
-import { ref, toRef, watch } from 'vue';
+import { ref, toRef, watch, onMounted } from 'vue';
 import { Network } from 'vis-network/esnext'
 import { DataSet } from 'vis-data/esnext'
 import "vis-network/styles/vis-network.css";
@@ -8,14 +8,30 @@ const props = defineProps(['selectedCourse'])
 const selectedCourse = toRef(props, 'selectedCourse')
 
 const visNetwork = ref(null);
+const initialLocalStorage = ref(null);
+
 function updateLocalStorage(networkInfo) {
-  const { nodes, edges, taken, code, available } = networkInfo
-  localStorage.setItem("nodes", JSON.stringify(nodes))
-  localStorage.setItem("edges", JSON.stringify(edges))
+  const { taken, code, available } = networkInfo
   localStorage.setItem("code", code)
   localStorage.setItem("taken", JSON.stringify(taken))
   localStorage.setItem("available", JSON.stringify(available))
 }
+
+function resetLocalStorage() {
+  localStorage.removeItem("code")
+  localStorage.removeItem("taken")
+  localStorage.removeItem("available")
+  initialLocalStorage.value = null
+}
+
+function loadFromLocalStorage() {
+  return {
+    code: localStorage.getItem("code"),
+    taken: JSON.parse(localStorage.getItem("taken")),
+    available: JSON.parse(localStorage.getItem("available")),
+  }
+}
+
 function getNodeSetFromDisciplinesFile(disciplines) {
   const groupedDisciplines = disciplines.reduce((groups, item) => {
     const level = item.level;
@@ -51,8 +67,7 @@ function updateNodes(nodesSet, edgesSet, network, taken, available) {
 
     nodesSet.update(node);
   });
-  const nodes = nodesSet.get({ returnType: 'Object' });
-  updateLocalStorage({ nodes, edges, code: props.selectedCourse.id, taken, available })
+  updateLocalStorage({ code: props.selectedCourse.id, taken, available })
 }
 const networkEventHandlerGenerator = (nodesSet, edgesSet, network, taken, available) => {
   network.on("dragEnd", network.unselectAll)
@@ -77,19 +92,27 @@ const networkEventHandlerGenerator = (nodesSet, edgesSet, network, taken, availa
     updateNodes(nodesSet, edgesSet, network, taken, available)
   });
 }
-watch(selectedCourse, (newSelectedCourse) => {
+
+const mountAndActInNetwork = (newSelectedCourse) => {
+  const taken = initialLocalStorage.value && initialLocalStorage.value.taken ? initialLocalStorage.value.taken : {}
+  const available = initialLocalStorage.value && initialLocalStorage.value.available ? initialLocalStorage.value.available : {}
+  resetLocalStorage()
   const disciplines = newSelectedCourse.file.nodes
   const edgesSet = new DataSet(newSelectedCourse.file.edges)
   const nodesSet = getNodeSetFromDisciplinesFile(disciplines)
   const network = new Network(visNetwork.value, { nodes: nodesSet, edges: edgesSet }, options);
 
-  const taken = {};
-  const available = {};
-
   updateNodes(nodesSet, edgesSet, network, taken, available)
   networkEventHandlerGenerator(nodesSet, edgesSet, network, taken, available)
+}
+
+watch(selectedCourse, (newSelectedCourse) => {
+  mountAndActInNetwork(newSelectedCourse)
 })
 
+onMounted(() => {
+  initialLocalStorage.value = loadFromLocalStorage()
+})
 const gray = {
   border: 'rgba(137,140,139,0.75)',
   background: 'rgba(197,209,204,0.75)',
