@@ -28,7 +28,7 @@ onMounted(() => {
 })
 </script>
 <template>
-    <div class="w-100 flex mt-5">
+    <div class="w-100 flex mt-5 flex-col-reverse sm:flex-row">
         <div class="flex-none w-64 text-gray-500 dark:text-gray-400">
             <div class="w-100 pl-5 pr-5">
                 <h3 class="font-bold">Legenda:</h3>
@@ -51,7 +51,7 @@ onMounted(() => {
                 </ul>
             </div>
         </div>
-        <div class="flex-1 w-64">
+        <div class="flex-1 w-100">
             <div class="card">
                 <div class="row">
                     <Select v-model="state.selectedCourse" label="Selectione um curso" :options="options" />
