@@ -15,7 +15,7 @@ function selectTab(tab) {
 
 <template>
     <div
-        class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gsray-700">
+        class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-500">
         <ul class="flex flex-wrap -mb-px">
             <li class="mr-2 cursor-pointer" v-for="tab in tabs">
                 <a @click="() => selectTab(tab)"

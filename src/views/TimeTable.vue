@@ -67,16 +67,31 @@ function daySelectionCol(dateAbr) {
     }
 }
 
+function readableDate(dateAbr) {
+    switch (dateAbr) {
+        case 'SEG':
+            return 'Segunda'
+        case 'TER':
+            return 'Terca'
+        case 'QUA':
+            return 'Quarta'
+        case 'QUI':
+            return 'Quinta'
+        case 'SEX':
+            return 'Sexta'
+    }
+}
+
 </script>
 <template>
-    <div class="h-screen">
+    <div>
         <Search class="mt-6" :searchList="horarios" placeholder="Pesquisar disciplinas" @selected="toggleDisciplina"
             :search-keys="['code', 'name', 'professor']" :render-list-function="renderListFunction"></Search>
         <Table class="mt-6" :table-data="tableData"> </Table>
-        <div class="mt-8">
-            Matérias selecionadas
+        <div class="mt-8 mb-10 font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-3xl dark:text-white">
+           Matérias selecionadas
         </div>
-        <div class="flex flex-wrap gap-2.5 mt-4">
+        <div class="flex flex-wrap gap-2.5 mt-4 mb-20">
             <div class="w-96" v-for="disciplina in selectedDisciplinas">
                 <Card>
                     <template #title>
@@ -85,7 +100,14 @@ function daySelectionCol(dateAbr) {
                             <div class="ml-auto"><Button @click="() => toggleDisciplina(disciplina)">X</Button></div>
                         </div>
                     </template>
-                    <template #description>{{ disciplina.name }}</template>
+                    <template #description>
+                        {{ disciplina.name }}
+                        <br>
+                        {{ 'TURMA ' + disciplina.turma }}
+                        <br>
+                        {{ readableDate(disciplina.time.slice(0, 3)) }}
+                        {{ disciplina.time.includes('/') ? 'e ' +readableDate(disciplina.time.slice(21, 24)): '' }}
+                    </template>
                 </Card>
             </div>
         </div>

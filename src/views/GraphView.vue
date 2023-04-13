@@ -28,9 +28,9 @@ onMounted(() => {
 })
 </script>
 <template>
-    <div class="w-100 bg-gray-500 p-10 flex">
-        <div class="flex-none w-64">
-            <div class="w-100 p-10">
+    <div class="w-100 flex mt-5">
+        <div class="flex-none w-64 text-gray-500 dark:text-gray-400">
+            <div class="w-100 pl-5 pr-5">
                 <h3 class="font-bold">Legenda:</h3>
                 <ul class="list-disc">
                     <li>Cada coluna é referente a um período</li>
@@ -55,7 +55,7 @@ onMounted(() => {
             <div class="card">
                 <div class="row">
                     <Select v-model="state.selectedCourse" label="Selectione um curso" :options="options" />
-                    <div class="mt-6 border-2 border-black rounded-md flex-col h-[45rem]">
+                    <div class="mt-6 border-2 border-gray-500 dark:border-gray-400 rounded-md flex-col h-[45rem]">
                         <VisNetwork :selectedCourse="COURSES[state?.selectedCourse]"></VisNetwork>
                     </div>
                 </div>

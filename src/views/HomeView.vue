@@ -22,19 +22,21 @@ const selectedTab = (tab) => {
 
 <template>
   <main :class="[{ dark: state.isDark }]">
-    <div class="dark:bg-gray-700 p-10">
+    <div class="dark:bg-gray-700 p-10 h-full">
       <div>
         <div class="absolute top-0 right-0">
           <Toggle v-model="state.isDark">Dark Mode</Toggle>
         </div>
-        <div class="text-xl text-center">
-          <h1>Apoio de Matrícula - ICEA UFOP 23.1</h1>
+        <div class="text-xl text-center text-gray-500 dark:text-gray-400">  
+          <h1
+            class="mb-10 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+            Apoio de Matrícula - ICEA UFOP 23.1</h1>
         </div>
       </div>
 
       <Tabs :tabs="tabs" @selected="selectedTab"></Tabs>
-      <GraphView v-if="state.view == 'graph'"></GraphView>
-      <TimeTable v-else></TimeTable>
+      <GraphView v-show="state.view == 'graph'"></GraphView>
+      <TimeTable v-show="state.view == 'timetable'"></TimeTable>
     </div>
   </main>
 </template>
